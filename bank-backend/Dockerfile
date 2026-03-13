@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-WORKDIR /app/bank-backend
+WORKDIR /app/bank-backend/bank-backend
 
 RUN mvn clean package -DskipTests
 
