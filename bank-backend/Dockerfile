@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+WORKDIR /app/bank-backend
+
 RUN chmod +x mvnw
 RUN ./mvnw clean package -DskipTests
 
